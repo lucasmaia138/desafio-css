@@ -1,5 +1,20 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #E5E5E5;
+    scroll-behavior: smooth;
+}
+
+p, li {
+    font-family: 'Inter';
+    font-weight: 400;
+}
+
+h2, h3 {
+    font-family: 'Inter';
+    font-weight: 500; 
 }
 
 .cabecalho {
@@ -12,6 +27,7 @@ body {
     backdrop-filter: blur(20px);
     position: fixed;
     z-index: 1;
+    font-family: 'Inter';
 }
 
 .navegacao {
@@ -20,6 +36,11 @@ body {
     align-items: center;
     margin: auto 0;
     padding: 0 25px;
+}
+
+.navegacao button {
+    background: none;
+    border: none;
 }
 
 .icone {
@@ -60,6 +81,8 @@ body {
     top: 0;
     color: #ffffff;
     margin-top: 159px ;
+    font-family: 'Poppins';
+    font-weight: 400;
 
 }
 
@@ -156,6 +179,12 @@ body {
 .forms h2 {
     display: inline-block;
     text-align: left;
+    text-indent: -380px;
+    height: 70px;
+    color: #ffffff;
+    font-size: 28px;
+    font-family: 'Poppins';
+    font-weight: 500;
 }
 
 .forms form {
